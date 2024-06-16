@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Movie Search</title>
+</head>
+
+<body>
+
+
+    <h1> Movie Search</h1>
+
+    <form id="movieForm"> 
+
+        <input type= "text" id="query" placeholder="enter movie name" required>
+        <button type= "button" id="button" onclick="searchMovies()"> Search Movies</button> 
+        <button type= "button" id="button" onclick="searchSimilarMovies()"> Search Similar Movies</button> 
+    
+    </form>
+
+    <div id="result"> </div>
+
+    <script src="script.js" ></script>
+    
+</body>
+</html>
